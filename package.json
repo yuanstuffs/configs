@@ -1,0 +1,29 @@
+{
+  "name": "configs",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanstuffs/configs.git"
+  },
+  "author": "yuansheng1549@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuanstuffs/configs/issues"
+  },
+  "homepage": "https://github.com/yuanstuffs/configs#readme",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@sapphire/prettier-config": "^1.4.3",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "prettier": "@sapphire/prettier-config",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

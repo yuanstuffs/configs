@@ -1,0 +1,8 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["github>sapphiredev/readme:sapphire-renovate"],
+    "reviewers": ["yuansheng1549@gmail.com", "yuansheng231@gmail.com"],
+    "automerge": false,
+    "assignees": ["yuansheng1549@gmail.com"],
+    "timezone": "Asia/Kuala_Lumpur"
+}
