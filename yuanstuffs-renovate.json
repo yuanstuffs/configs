@@ -1,12 +1,43 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["github>sapphiredev/readme:sapphire-renovate", ":disableRateLimiting"],
+    "extends": ["config:base", ":disableRateLimiting", "helpers:pinGitHubActionDigests", "group:allNonMajor"],
     "additionalReviewers": ["@yuansheng1549", "@yuansheng231"],
-    "automerge": true,
     "timezone": "Asia/Kuala_Lumpur",
     "rebaseWhen": "conflicted",
     "automergeStrategy": "squash",
     "automergeSchedule": [
-        "after 12pm before Sunday"
-    ]
+        "after 12pm on Wednesday"
+    ],
+    "automergeType": "pr-comment",
+    "automergeComment": "automerge pls",
+    "schedule": [
+        "before 12pm on Sunday"
+    ],
+    "labels": ["Meta: Dependencies"],
+    "npm": {
+		"rangeStrategy": "bump",
+		"packageRules": [
+			{
+				"matchUpdateTypes": ["minor", "patch"],
+				"matchCurrentVersion": "!/^0/",
+				"automerge": true
+			},
+			{
+				"matchPackagePatterns": ["ansi-regex"],
+				"allowedVersions": "^5"
+			},
+			{
+				"matchPackagePatterns": ["@types/node-fetch"],
+				"allowedVersions": "^2"
+			},
+			{
+				"matchPackagePatterns": ["@sapphire"],
+				"groupName": "Sapphire Dependencies"
+			},
+			{
+				"matchDepTypes": ["engines"],
+				"enabled": false
+			}
+		]
+	}
 }
