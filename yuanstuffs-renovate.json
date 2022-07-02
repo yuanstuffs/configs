@@ -20,7 +20,8 @@
 			{
 				"matchUpdateTypes": ["minor", "patch"],
 				"matchCurrentVersion": "!/^0/",
-				"automerge": true
+				"automerge": true,
+                "additionalReviewers": ["@yuansheng1549", "@yuansheng231"]
 			},
 			{
 				"matchPackagePatterns": ["ansi-regex"],
