@@ -6,7 +6,8 @@
     "rebaseWhen": "conflicted",
     "automergeStrategy": "squash",
     "automergeSchedule": [
-        "before 10pm on Sunday"
+        "before 10pm on Sunday",
+		"at any time"
     ],
 	"automerge": true,
     "schedule": [
