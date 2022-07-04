@@ -15,6 +15,7 @@
         "before 12pm on Sunday"
     ],
     "labels": ["Meta: Dependencies"],
+	"semanticCommits": "enabled",
     "npm": {
 		"rangeStrategy": "bump",
 		"packageRules": [
