@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:base", ":disableRateLimiting", "helpers:pinGitHubActionDigests", "group:allNonMajor"],
-    "additionalReviewers": ["@yuansheng1549", "@yuansheng231"],
+    "extends": ["config:base", "helpers:pinGitHubActionDigests", "group:allNonMajor"],
+    "additionalReviewers": ["@yuansheng1549"],
     "timezone": "Asia/Kuala_Lumpur",
     "rebaseWhen": "conflicted",
     "schedule": [
