@@ -1,7 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:base", "helpers:pinGitHubActionDigests", "group:allNonMajor"],
-    "additionalReviewers": ["@yuansheng1549"],
     "timezone": "Asia/Kuala_Lumpur",
     "rebaseWhen": "conflicted",
     "schedule": [
@@ -15,7 +14,8 @@
 			{
 				"matchUpdateTypes": ["minor", "patch"],
 				"matchCurrentVersion": "!/^0/",
-				"automerge": true
+				"automerge": true,
+				"automergeStrategy": "squash"
 			},
 			{
 				"matchPackagePatterns": ["ansi-regex"],
