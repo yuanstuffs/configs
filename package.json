@@ -18,7 +18,7 @@
     "@commitlint/config-conventional": "^17.3.0",
     "@sapphire/prettier-config": "^1.4.4",
     "husky": "^8.0.2",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.1"
   },
   "prettier": "@sapphire/prettier-config",
   "commitlint": {
