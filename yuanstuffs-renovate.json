@@ -45,7 +45,7 @@
 			},
 			{
 				"matchPackagePatterns": ["@types/node"],
-				"matchCurrentVersion": "18.14.2",
+				"allowedVersions": "18.14.2",
 				"automerge": true,
 				"automergeStrategy": "squash"
 			}
