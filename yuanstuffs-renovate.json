@@ -27,7 +27,7 @@
 			},
 			{
 				"matchPackagePatterns": ["mongoose"],
-				"matchCurrentVersion": "/^6\\./"
+				"matchCurrentVersion": "^6"
 			},
 			{
 				"matchPackagePatterns": ["ansi-regex"],
