@@ -8,6 +8,15 @@
     ],
     "labels": ["Meta: Dependencies"],
     "semanticCommits": "enabled",
+	"lockFileMaintenance": {
+		"enabled": true,
+		"recreateClosed": true,
+		"rebaseStalePrs": true,
+		"branchName": "lock-file-maintenance",
+		"schedule": [
+			"before 12pm on Sunday"
+		]
+	},
     "github-actions": {
  		"enabled": false
     },
