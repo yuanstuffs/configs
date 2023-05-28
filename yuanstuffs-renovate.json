@@ -19,7 +19,7 @@
 		"platformAutomerge": true
 	},
 	"prCreation": "immediate",
-	"prHourlyLimit": 10,
+	"prHourlyLimit": 0,
     "github-actions": {
  		"enabled": false
     },
