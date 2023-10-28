@@ -15,7 +15,7 @@
 	"semanticCommits": "enabled",
 	"lockFileMaintenance": {
 		"automerge": true,
-		"enabled": false,
+		"enabled": true,
 		"recreateClosed": true,
 		"rebaseStalePrs": true,
 		"schedule": [
