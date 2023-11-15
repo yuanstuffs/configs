@@ -1,17 +1,10 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:base",
-		"group:allNonMajor"
-	],
+	"extends": ["config:base", "group:allNonMajor"],
 	"timezone": "Asia/Kuala_Lumpur",
 	"rebaseWhen": "conflicted",
-	"schedule": [
-		"before 12pm on Sunday"
-	],
-	"labels": [
-		"Meta: Dependencies"
-	],
+	"schedule": ["before 12pm on Sunday"],
+	"labels": ["Meta: Dependencies"],
 	"semanticCommits": "enabled",
 	"lockFileMaintenance": {
 		"automerge": true,
@@ -45,33 +38,15 @@
 				"platformAutomerge": true
 			},
 			{
-				"matchPackagePatterns": [
-					"mongoose"
-				],
+				"matchPackagePatterns": ["mongoose"],
 				"allowedVersions": "^6"
 			},
 			{
-				"matchPackagePatterns": [
-					"bullmq"
-				],
-				"allowedVersions": "^3"
-			},
-			{
-				"matchPackagePatterns": [
-					"@sapphire"
-				],
-				"groupName": "Sapphire Dependencies"
-			},
-			{
-				"matchDepTypes": [
-					"engines"
-				],
+				"matchDepTypes": ["engines"],
 				"enabled": false
 			},
 			{
-				"matchPackagePatterns": [
-					"@types/node"
-				],
+				"matchPackagePatterns": ["@types/node"],
 				"allowedVersions": "18.14.2",
 				"automerge": true,
 				"automergeStrategy": "squash"
