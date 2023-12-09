@@ -1,11 +1,10 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:base", "group:allNonMajor", "group:monorepos"],
+	"extends": ["config:base", "group:allNonMajor", "group:monorepos", ":automergeAll", ":semanticCommits"],
 	"timezone": "Asia/Kuala_Lumpur",
 	"rebaseWhen": "conflicted",
 	"schedule": ["before 12pm on Sunday"],
 	"labels": ["Meta: Dependencies"],
-	"semanticCommits": "enabled",
 	"lockFileMaintenance": {
 		"automerge": true,
 		"enabled": false,
