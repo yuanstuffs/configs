@@ -15,7 +15,7 @@
 		],
 		"platformAutomerge": true
 	},
-	"automergeType": "branch",
+	"automergeType": "pr",
 	"prCreation": "immediate",
 	"prHourlyLimit": 0,
 	"github-actions": {
