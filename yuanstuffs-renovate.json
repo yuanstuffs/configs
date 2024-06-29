@@ -44,6 +44,10 @@
 				"allowedVersions": "<=5.4"
 			},
 			{
+				"matchPackageNames": ["eslint"],
+				"allowedVersions": "^8"
+			},
+			{
 				"matchPackagePatterns": ["@types/node"],
 				"allowedVersions": "20.11.1",
 				"automerge": true,
