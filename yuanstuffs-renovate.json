@@ -31,7 +31,8 @@
 				"allowedVersions": "<=5.4"
 			},
 			{
-				"matchPackageNames": ["eslint", "@typescript-eslint/*"],
+				"matchPackageNames": ["eslint"],
+				"matchSourceUrls": ["https://github.com/typescript-eslint/typescript-eslint"],
 				"allowedVersions": "^8"
 			},
 			{
