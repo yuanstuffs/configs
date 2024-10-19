@@ -1,13 +1,10 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:recommended", "group:allNonMajor", ":automergeMajor", ":semanticCommits"],
+	"extends": ["config:recommended", "group:allNonMajor", ":semanticCommits"],
 	"timezone": "Asia/Kuala_Lumpur",
-	"rebaseWhen": "conflicted",
 	"schedule": ["before 12pm on Sunday"],
-	"labels": ["Meta: Dependencies"],
+	"labels": ["dependencies"],
 	"reviewers": ["yuansheng1549"],
-	"automergeType": "pr",
-	"prCreation": "immediate",
 	"prHourlyLimit": 0,
 	"npm": {
 		"postUpdateOptions": ["yarnDedupeHighest"],
@@ -39,7 +36,7 @@
 			},
 			{
 				"matchPackagePatterns": ["@types/node"],
-				"allowedVersions": "20.11.1",
+				"allowedVersions": "20.16.3",
 				"automerge": true,
 				"automergeStrategy": "rebase"
 			}
