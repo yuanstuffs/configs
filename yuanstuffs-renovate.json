@@ -4,12 +4,6 @@
     "additionalReviewers": ["@yuansheng1549", "@yuansheng231"],
     "timezone": "Asia/Kuala_Lumpur",
     "rebaseWhen": "conflicted",
-    "automergeStrategy": "squash",
-    "automergeSchedule": [
-        "before 10pm on Sunday",
-	"before 8am on Wednesday",
-    ],
-    "automerge": true,
     "schedule": [
         "before 12pm on Sunday"
     ],
@@ -21,8 +15,7 @@
 			{
 				"matchUpdateTypes": ["minor", "patch"],
 				"matchCurrentVersion": "!/^0/",
-				"automerge": true,
-                "additionalReviewers": ["@yuansheng1549", "@yuansheng231"]
+				"automerge": true
 			},
 			{
 				"matchPackagePatterns": ["ansi-regex"],
@@ -34,8 +27,7 @@
 			},
 			{
 				"matchPackagePatterns": ["@sapphire"],
-				"groupName": "Sapphire Dependencies",
-                "additionalReviewers": ["@yuansheng1549", "@yuansheng231"]
+				"groupName": "Sapphire Dependencies"
 			},
 			{
 				"matchDepTypes": ["engines"],
