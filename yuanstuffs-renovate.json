@@ -8,6 +8,9 @@
     ],
     "labels": ["Meta: Dependencies"],
     "semanticCommits": "enabled",
+    "github-actions": {
+ 		"enabled": false
+    },
     "npm": {
 		"rangeStrategy": "bump",
 		"packageRules": [
