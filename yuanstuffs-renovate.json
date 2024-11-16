@@ -9,7 +9,7 @@
         "at any time"
     ],
     "automergeType": "pr-comment",
-    "automergeComment": "automerge pls",
+    "automergeComment": "Enabled automerge!",
     "schedule": [
         "before 12pm on Sunday"
     ],
