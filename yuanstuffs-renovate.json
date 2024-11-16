@@ -41,9 +41,9 @@
 			},
 			{
 				"matchPackagePatterns": ["@types/node"],
-				"allowedVersions": "20.10.0",
+				"allowedVersions": "20.11.1",
 				"automerge": true,
-				"automergeStrategy": "squash"
+				"automergeStrategy": "rebase"
 			}
 		]
 	}
