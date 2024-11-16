@@ -29,7 +29,7 @@
 				"platformAutomerge": true
 			},
 			{
-				"matchPackageNames": ["@sapphire/*"],
+				"matchPackageNames": ["@sapphire"],
 				"description": "group @sapphire/* deps in a single pr",
 				"groupName": "Sapphire Dependencies"
 			},
