@@ -31,7 +31,7 @@
 				"allowedVersions": "<=5.4"
 			},
 			{
-				"matchPackageNames": ["eslint"],
+				"matchPackageNames": ["eslint", "@typescript-eslint/*"],
 				"allowedVersions": "^8"
 			},
 			{
