@@ -6,16 +6,6 @@
 	"schedule": ["before 12pm on Sunday"],
 	"labels": ["Meta: Dependencies"],
 	"reviewers": ["yuansheng1549"],
-	"lockFileMaintenance": {
-		"automerge": true,
-		"enabled": false,
-		"recreateClosed": true,
-		"rebaseStalePrs": true,
-		"schedule": [
-			"before 12pm on Sunday"
-		],
-		"platformAutomerge": true
-	},
 	"automergeType": "pr",
 	"prCreation": "immediate",
 	"prHourlyLimit": 0,
