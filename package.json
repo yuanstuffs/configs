@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/yuanstuffs/configs.git"
   },
-  "author": "yuansheng1549@gmail.com",
+  "author": "yuansheng1515@icloud.com",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/yuanstuffs/configs/issues"
@@ -17,7 +17,6 @@
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@sapphire/prettier-config": "^1.4.5",
-    "husky": "^8.0.3",
     "prettier": "^2.8.3"
   },
   "prettier": "@sapphire/prettier-config",
