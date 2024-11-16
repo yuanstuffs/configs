@@ -5,6 +5,7 @@
 	"rebaseWhen": "conflicted",
 	"schedule": ["before 12pm on Sunday"],
 	"labels": ["Meta: Dependencies"],
+	"reviewers": ["yuansheng1549"],
 	"lockFileMaintenance": {
 		"automerge": true,
 		"enabled": false,
