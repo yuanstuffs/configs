@@ -51,16 +51,5 @@
 				"automergeStrategy": "rebase"
 			}
 		]
-	},
-	"vulnerabilityAlerts": {
-		"groupName": null,
-		"schedule": [],
-		"dependencyDashboardApproval": false,
-		"minimumReleaseAge": null,
-		"rangeStrategy": "update-lockfile",
-		"commitMessageSuffix": "[SECURITY]",
-		"branchTopic": "{{{datasource}}}-{{{depNameSanitized}}}-vulnerability",
-		"prCreation": "immediate",
-		"vulnerabilityFixStrategy": "highest"
 	}
 }
