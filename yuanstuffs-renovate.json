@@ -52,10 +52,9 @@
 			},
 			{
 				"matchPackagePatterns": [
-					"ansi-regex"
+					"bullmq"
 				],
-				"allowedVersions": "^5",
-				"automerge": true
+				"allowedVersions": "^3"
 			},
 			{
 				"matchPackagePatterns": [
