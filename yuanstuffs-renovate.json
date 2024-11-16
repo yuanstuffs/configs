@@ -6,10 +6,9 @@
     "rebaseWhen": "conflicted",
     "automergeStrategy": "squash",
     "automergeSchedule": [
-        "at any time"
+        "before 10pm on Sunday"
     ],
-    "automergeType": "pr-comment",
-    "automergeComment": "Enabled automerge!",
+	"automerge": true,
     "schedule": [
         "before 12pm on Sunday"
     ],
