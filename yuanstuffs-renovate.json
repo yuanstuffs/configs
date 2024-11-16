@@ -47,7 +47,7 @@
 				"matchPackagePatterns": ["@types/node"],
 				"enabled": true,
 				"matchCurrentVersion": "18.14.2",
-				"auromerge": true,
+				"automerge": true,
 				"automergeStrategy": "squash"
 			}
 		]
