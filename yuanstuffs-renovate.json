@@ -29,21 +29,17 @@
 		"enabled": false
 	},
 	"npm": {
+		"postUpdateOptions": ["yarnDedupeHighest"],
 		"rangeStrategy": "bump",
 		"packageRules": [
 			{
-				"matchUpdateTypes": [
-					"patch"
-				],
+				"matchUpdateTypes": ["patch"],
 				"matchCurrentVersion": "/^0\\./",
 				"automerge": true,
 				"platformAutomerge": true
 			},
 			{
-				"matchUpdateTypes": [
-					"minor",
-					"patch"
-				],
+				"matchUpdateTypes": ["minor", "patch"],
 				"matchCurrentVersion": ">=1.0.0",
 				"automerge": true,
 				"platformAutomerge": true
@@ -59,13 +55,6 @@
 					"ansi-regex"
 				],
 				"allowedVersions": "^5",
-				"automerge": true
-			},
-			{
-				"matchPackagePatterns": [
-					"@types/node-fetch"
-				],
-				"allowedVersions": "^2",
 				"automerge": true
 			},
 			{
