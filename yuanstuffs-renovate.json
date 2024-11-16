@@ -40,6 +40,10 @@
 				"allowedVersions": "^6"
 			},
 			{
+				"matchPackageNames": ["typescript"],
+				"allowedVersions": "<=5.4"
+			},
+			{
 				"matchPackagePatterns": ["@types/node"],
 				"allowedVersions": "20.11.1",
 				"automerge": true,
