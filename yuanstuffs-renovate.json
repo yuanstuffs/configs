@@ -8,7 +8,7 @@
 	"reviewers": ["yuansheng1549"],
 	"lockFileMaintenance": {
 		"automerge": true,
-		"enabled": false,
+		"enabled": true,
 		"recreateClosed": true,
 		"rebaseStalePrs": true,
 		"schedule": [
