@@ -33,7 +33,8 @@
 			},
 			{
 				"matchPackagePatterns": ["@sapphire"],
-				"groupName": "Sapphire Dependencies"
+				"groupName": "Sapphire Dependencies",
+                "additionalReviewers": ["@yuansheng1549", "@yuansheng231"]
 			},
 			{
 				"matchDepTypes": ["engines"],
