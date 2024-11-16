@@ -9,13 +9,14 @@
     "labels": ["Meta: Dependencies"],
     "semanticCommits": "enabled",
 	"lockFileMaintenance": {
+		"automerge": true,
 		"enabled": true,
 		"recreateClosed": true,
 		"rebaseStalePrs": true,
-		"branchName": "lock-file-maintenance",
 		"schedule": [
 			"before 12pm on Sunday"
-		]
+		],
+		"platformAutomerge": true
 	},
     "github-actions": {
  		"enabled": false
