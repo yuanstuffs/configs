@@ -7,15 +7,14 @@
     "automergeStrategy": "squash",
     "automergeSchedule": [
         "before 10pm on Sunday",
-		"before 8am on Wednesday",
-		"at any time"
+	"before 8am on Wednesday",
     ],
-	"automerge": true,
+    "automerge": true,
     "schedule": [
         "before 12pm on Sunday"
     ],
     "labels": ["Meta: Dependencies"],
-	"semanticCommits": "enabled",
+    "semanticCommits": "enabled",
     "npm": {
 		"rangeStrategy": "bump",
 		"packageRules": [
