@@ -29,11 +29,6 @@
 				"platformAutomerge": true
 			},
 			{
-				"matchPackageNames": ["@sapphire"],
-				"description": "group @sapphire/* deps in a single pr",
-				"groupName": "Sapphire Dependencies"
-			},
-			{
 				"matchPackageNames": ["mongoose"],
 				"description": "pin mongoose version to v6",
 				"allowedVersions": "^6"
