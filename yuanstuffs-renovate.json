@@ -26,6 +26,11 @@
 				"automergeStrategy": "squash"
 			},
 			{
+				"matchPackagePatterns": ["mongoose"],
+				"matchCurrentVersion": "/^6\\./",
+				"automerge": true
+			},
+			{
 				"matchPackagePatterns": ["ansi-regex"],
 				"allowedVersions": "^5",
 				"automerge": true
