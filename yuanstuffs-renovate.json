@@ -31,8 +31,7 @@
 				"allowedVersions": "<=5.4"
 			},
 			{
-				"matchPackageNames": ["eslint"],
-				"matchSourceUrls": ["https://github.com/typescript-eslint/typescript-eslint"],
+				"matchPackageNames": ["eslint", "@typescript-eslint/eslint-plugin", "@typescript-eslint/parser"],
 				"allowedVersions": "^8"
 			},
 			{
