@@ -2,7 +2,11 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["github>sapphiredev/readme:sapphire-renovate", ":disableRateLimiting"],
     "additionalReviewers": ["@yuansheng1549", "@yuansheng231"],
-    "automerge": false,
+    "automerge": true,
     "timezone": "Asia/Kuala_Lumpur",
-    "rebaseWhen": "conflicted"
+    "rebaseWhen": "conflicted",
+    "automergeStrategy": "squash",
+    "automergeSchedule": [
+        "after 12pm before Sunday"
+    ]
 }
