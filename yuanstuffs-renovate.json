@@ -21,13 +21,15 @@
 				"matchUpdateTypes": ["patch"],
 				"matchCurrentVersion": "/^0\\./",
 				"automerge": true,
-				"platformAutomerge": true
+				"platformAutomerge": true,
+				"automergeStrategy": "rebase"
 			},
 			{
 				"matchUpdateTypes": ["minor", "patch"],
 				"matchCurrentVersion": ">=1.0.0",
 				"automerge": true,
-				"platformAutomerge": true
+				"platformAutomerge": true,
+				"automergeStrategy": "rebase"
 			},
 			{
 				"matchPackageNames": ["mongoose"],
