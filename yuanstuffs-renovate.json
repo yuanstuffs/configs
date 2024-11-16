@@ -12,6 +12,7 @@
 	"schedule": ["before 12pm on Sunday"],
 	"labels": ["dependencies"],
 	"reviewers": ["yuansheng1549"],
+	"automergeStrategy": "rebase",
 	"npm": {
 		"postUpdateOptions": ["yarnDedupeHighest"],
 		"rangeStrategy": "bump",
