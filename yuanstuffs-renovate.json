@@ -30,26 +30,34 @@
 			},
 			{
 				"matchPackageNames": ["mongoose"],
+				"description": "pin mongoose version to v6",
 				"allowedVersions": "^6"
 			},
 			{
 				"matchPackageNames": ["typescript"],
+				"description": "only allow renovate bump typescript version to 5.4",
 				"allowedVersions": "<=5.4"
 			},
 			{
 				"matchPackageNames": ["eslint"],
+				"description": "pin eslint to v8",
 				"allowedVersions": "^8"
 			},
 			{
 				"matchSourceUrls": ["https://github.com/typescript-eslint/typescript-eslint"],
+				"description": "pin @typescript-eslint/* to v7",
 				"allowedVersions": "^7"
 			},
 			{
 				"matchPackagePatterns": ["@types/node"],
-				"allowedVersions": "20.16.3",
+				"description": "pin @types/node to v20",
+				"allowedVersions": "^20",
 				"automerge": true,
 				"automergeStrategy": "rebase"
 			}
 		]
+	},
+	"dockerfile": {
+		"semanticCommitType": "build"
 	}
 }
